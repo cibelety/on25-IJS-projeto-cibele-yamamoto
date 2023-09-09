@@ -1,0 +1,14 @@
+{
+  "name": "on25-ijs-projeto-cibele-yamamoto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Cibele Yamamoto",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
