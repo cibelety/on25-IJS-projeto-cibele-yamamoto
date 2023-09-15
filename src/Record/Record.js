@@ -5,7 +5,7 @@ export class Record {
     metricsAnswers; // Answers of the Metrics of the Research
 
     constructor(hacksExecuted, metricsAnswers) {
-        // this.datetime = Date.now() ???
+        this.datetime = new Date()
         this.hacksExecuted = hacksExecuted;
         this.metricsAnswers = metricsAnswers;
     }

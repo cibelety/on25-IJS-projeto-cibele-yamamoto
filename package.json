@@ -5,11 +5,18 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage --coverageReporters='text-summary'"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
   },
   "author": "Cibele Yamamoto",
   "license": "ISC",
   "devDependencies": {
+    "@babel/preset-env": "^7.22.15",
+    "babel-jest": "^29.7.0",
     "jest": "^29.6.4"
   }
 }
