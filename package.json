@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest --coverage --coverageReporters='text-summary'"
+    "test": "jest"
   },
   "jest": {
     "transform": {
